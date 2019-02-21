@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="RestaurantApp">
+<head>
+    <title></title>
+    <link href="CSS/bootstrap-theme.css" rel="stylesheet" />
+    <link href="CSS/bootstrap.css" rel="stylesheet" />
+    <link href="Script/Angular/Animate/angular-animate.css" rel="stylesheet" />
+    <script src="Script/Angular/angular.js"></script>
+    <script src="Script/Angular/Route/route.js"></script>
+    <script src="Script/Angular/Resource/resource.js"></script>
+    <script src="Script/Angular/Animate/Animate.js"></script>
+    <script src="Script/Jquery/Jquery.js"></script>
+    <script src="Script/Angular/Bootstrap/ui-bootstrap-tpls-0.13.4.min.js"></script>
+    <script src="Script/Modules/Restaurant/RestaurantConfig.js"></script>
+    <script src="Script/Modules/Restaurant/Controllers/MainController.js"></script>
+    <script src="Script/Modules/Restaurant/Controllers/menuController.js"></script>
+    <script src="Script/Modules/Restaurant/Controllers/resumoController.js"></script>
+    <script src="Script/Modules/Restaurant/Services/menuService.js"></script>
+    <script src="Script/Modules/Restaurant/Services/orderService.js"></script>
+    <script src="Script/Modules/Restaurant/Controllers/modalController.js"></script>
+
+    <script src="Script/Angular/Bootstrap/ui-bootstrap-tpls-0.13.4.min.js"></script>
+    <base href="/">
+</head>
+<body ng-controller="mainController">
+    <h2>Sistema para controle de pedidos</h2>
+    <div>
+        <a href="Menu">Menu</a>
+        <a href="Resumo">Resumo</a>
+    </div>
+    <div ng-view></div>
+</body>
+</html>

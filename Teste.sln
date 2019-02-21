@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Teste\Restaurant.csproj", "{FC024B55-D9CD-444E-9B2E-9EF1002B824D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{B4356CDE-A205-434B-AD05-E6BC38EC7E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA", "WebApplication1\SPA.csproj", "{77FB8019-081A-4A47-861D-F5E87D4E4867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC024B55-D9CD-444E-9B2E-9EF1002B824D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC024B55-D9CD-444E-9B2E-9EF1002B824D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC024B55-D9CD-444E-9B2E-9EF1002B824D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC024B55-D9CD-444E-9B2E-9EF1002B824D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4356CDE-A205-434B-AD05-E6BC38EC7E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4356CDE-A205-434B-AD05-E6BC38EC7E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4356CDE-A205-434B-AD05-E6BC38EC7E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4356CDE-A205-434B-AD05-E6BC38EC7E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FB8019-081A-4A47-861D-F5E87D4E4867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FB8019-081A-4A47-861D-F5E87D4E4867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FB8019-081A-4A47-861D-F5E87D4E4867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FB8019-081A-4A47-861D-F5E87D4E4867}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

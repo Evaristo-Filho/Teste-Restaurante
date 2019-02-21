@@ -1,0 +1,20 @@
+﻿<div>
+    <h3>Resumo do pedido</h3>
+    <table border="1">
+        <thead></thead>
+        <tr>
+            <th>Prato</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Tempo estimado(minutos)</th>
+        </tr>
+        <tr ng-repeat="item in dishList">
+            <td>{{item.Name}}  </td>
+            <td>{{item.Description}}   </td>
+            <td>R$ {{item.Price}}   </td>
+            <td>{{item.estimatedTime}}  </td>
+        </tr>
+    </table>
+    Total:{{totalPrice}} Tempo estimado(minutos): {{totalTime}}
+    <input type="button" value="submeter Pedido" ng-click="submeter()" />
+</div>
